@@ -1,0 +1,68 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.detectIndentation": true,
+    "editor.fontSize": 16,
+    "editor.lightbulb.enabled": true,
+    "editor.parameterHints.enabled": true,
+    "editor.fontFamily": "'Dank Mono', 'Menlo', 'Monaco', 'Courier New', monospace",
+    "editor.fontLigatures": false,
+    "editor.rulers": [80],
+    "editor.snippetSuggestions": "top",
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.localityBonus": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.suggestSelection": "recentlyUsed",
+      "editor.suggest.showKeywords": false
+    },
+    "editor.renderWhitespace": "boundary",
+    "files.defaultLanguage": "{activeEditorLanguage}",
+    "javascript.validate.enable": false,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/coverage": true,
+      "**/dist": true,
+      "**/build": true,
+      "**/.build": true,
+      "**/.gh-pages": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "material-icon-theme",
+    "breadcrumbs.enabled": true,
+    "grunt.autoDetect": "off",
+    "gulp.autoDetect": "off",
+    "npm.runSilent": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnPaste": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "php.suggest.basic": false,
+    "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "css.lint.unknownAtRules": "ignore",
+    "liveSassCompile.settings.excludeList": [
+      "**/node_modules/**",
+      ".vscode/**"
+    ],
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css/"
+      }
+    ],
+    "git.openRepositoryInParentFolders": "never"
+  }
+  
